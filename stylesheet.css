@@ -2,17 +2,16 @@ body {
   font-family: "Avenir Next";
 }
 
-li {
+.header-list li {
   list-style: none; 
-  /* Gantikan property float ke left */
-  float: left;
-  margin-left: 5px;
-  }
+  float: right;
+  margin: 15px 15px;
+}
 
 .header {
   background-color: pink;
   height: 150px; 
-}
+  }
 
 /* Gantikan font-size milik header-logo ke 36px, dan property float ke left */
 .header-logo {
@@ -25,6 +24,7 @@ li {
 .main {
   background-color: #bdf7f1;
   height: 600px;
+  padding-top: 50px;
 }
 
 .footer {
